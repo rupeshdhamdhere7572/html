@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 1</title>
+</head>
+<h1 align="center">Table 1</h1>
+<style>
+    .table1{
+        margin-top: 100px;
+        height: 200px;
+        
+    }
+    .i2{
+        
+        height: 250px;
+        margin-top: 50px;
+    }
+    .i3{
+        
+        height: 300px;
+        margin-top: 200px;
+
+
+    }
+</style>
+<body>
+   <div class="table1"><table border="2" align="center" cellpadding="5" cellspacing="2" >
+        <tr>
+            <td>Colomn 1</td>
+            <td>Colomn 2</td>
+            <td>Colomn 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+        <tr> 
+            <td>Row 2 cell 2</td>
+            <td> Row 2 cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">Row 3 cell 1</td>
+        </tr>
+        
+    </table >
+    </div>
+    <div class="i2">
+        <table border="2" align="center" cellpadding="5" cellspacing="0" margin-top=50px>
+            <h1 align="center">Timetable</h1>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+<tr>
+    <th colspan="2">Schedule</th>
+    <th rowspan="2">Topic</th>
+</tr>
+<tr>
+<th>Begin</th>
+<th>End</th>
+</tr>
+<tr>
+    <th rowspan="2">Monday</th>
+    <td rowspan="2" bgcolor="orange">8.00am</td>
+    <td rowspan="2" bgcolor="voilet">5.00pm</td>
+    <td> Indroduction to XML</td>
+    
+</tr>
+
+<tr>
+<td>Validity DTD and Relax no</td>
+</tr>
+<tr>
+    <th rowspan="3">Tuesday</th>
+    <td bgcolor="orange">8.00am</td>
+    <td bgcolor="orange">11.00am</td>
+    <td>XP path</td>
+</tr>
+<tr>
+    <td bgcolor="orange">11.00am</td>
+    <td bgcolor="green">empty</td>
+    <td rowspan="2">XSL Transformation</td>
+</tr>
+<tr>
+    <td bgcolor="green">Empty</td>
+    <td bgcolor="voilet">5.00pm</td>
+</tr>
+<tr>
+    <th>Wednesday</th>
+    <td bgcolor="orange">8.00am</td>
+    <td bgcolor="green">empty</td>
+    <td rowspan="2">XSL Formating Object</td>
+</tr>
+        </table>
+    </div>
+    <div class="i3">
+        <table border="2" cellpadding="5" cellspacing="0" align="center">
+            <h1 align="center">Table 3</h1>
+            <tr>
+            <th >Country</th>
+            <th>State</th>
+            <th>City</th>
+            <th>Street</th>
+            <th>Male</th>
+            <th>Female</th>
+            <th>Others</th>
+            </tr>
+            <tr>
+                <td rowspan="8">1.</td>
+              <td rowspan="4">Kerala</td>
+                <td rowspan="2">cochin</td>
+                <td>new Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>main Street</main></td>
+                <td>300</td>
+                <td>288</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Trivandrum</td>
+                <td>Guru street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>TVK street</td>
+                    <td> 500</td>
+                        <td>600</td>
+                            <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Maharashtra</td>
+                <td rowspan="2">Mumbai</td>
+                <td>Krisha street</td>
+                <td>700</td>
+                <td>850</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Main street</td>
+                <td>500</td>
+                    <td>600</td>
+                        <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Surath</td>
+                <td>New street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Billa Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>
